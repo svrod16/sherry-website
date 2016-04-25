@@ -1,53 +1,38 @@
+* {margin:0; padding:0; box-sizing:border-box;}
 body {
     background-color: #E0EEEE;
+    color: #101072;
+    font-size: 20px;
+    font-family:'Lato', sans-serif;
+    font-weight: 100;
 }
-
+h1,h2,h3 {
+    font-family: 'Amatic SC', cursive;
+    margin-bottom:.5em;
+}
 h1 {
     color: #388E8E;
-    font-size: 100px;
-      text-align: center;
-      font-family: 'Amatic SC', cursive;
-      font-weight: 700;
-
+    font-size: 5em;
+    font-weight: 700;
 }
 
 h2 {
-    color: #101072;
-    font-size: 32px;
-      text-align: center;
-      font-family: 'Amatic SC', cursive;
-      font-weight: 400;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 h3 {
-  color: #101072;
-    font-size: 32px;
-      text-align: left;
-      font-family: 'Amatic SC', cursive;
-      font-weight: 400;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 7px;
 }
-
-p {
-  color: #101072;
-  font-size: 20px;
-    text-align: left;
-    font-family:'Lato', sans-serif;
-    font-weight: 100;
-}
-
 ul {
-  color: #101072;
-  font-size: 20px;
-    text-align: left;
-    font-family:'Lato', sans-serif;
-    font-weight: 100;
+    padding-left:1.25em;
 }
-
-.letter-spacing {
-  letter-spacing: 7px;
+#splash {
+    background:url(../images/joey beach.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:75vh;
+    padding:5em;
 }
-
-.letter-spacing2 {
-  letter-spacing: 7px;
-}
-
