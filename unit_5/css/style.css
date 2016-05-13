@@ -36,3 +36,28 @@ ul {
     height:75vh;
     padding:5em;
 }
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    margin: 0px auto;
+    text-align: right;
+}
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+    width: 100%;
+    margin: 0px auto;
+    text-align: left;
+}
+aside {
+    background-color: #FFC675;
+}
