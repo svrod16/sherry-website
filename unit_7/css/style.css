@@ -48,7 +48,7 @@ nav {
     width: 100%;
     margin: 0px auto;
     text-align: right;
-    text-decoration: none;
+    
 }
 section {
     padding:5em 0;
@@ -92,9 +92,12 @@ aside {
 #experience {
     background-color: #DCDDD8;
     margin-left: 2em;
-
 }
 a{
     color: #E0EEEE;
     text-decoration: none;
+}
+nav a {
+    margin-right: 1em;
+
 }
