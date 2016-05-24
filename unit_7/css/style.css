@@ -4,6 +4,7 @@ body {
     font-size: 20px;
     font-family:'Lato', sans-serif;
     font-weight: 100;
+    color: #475F77;
 }
 h1,h2,h3 {
     font-family: 'Amatic SC', cursive;
@@ -11,7 +12,7 @@ h1,h2,h3 {
     margin-bottom:.5em;
 }
 h1 {
-    color: #DCDDD8;
+    color: #475F77;
     font-size: 12em;
     font-weight: 700;
 }
@@ -31,11 +32,12 @@ ul {
     padding-left:1.25em;
 }
 #splash {
-    background:url(../images/wood.jpg);
+    background:url(../images/flowers.jpg);
     background-size:cover;
     background-repeat:no-repeat;
     height:70vh;
     padding:5em;
+    background-position: 0px -150px;
 }
 nav {
     background-color: #475F77;
