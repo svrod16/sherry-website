@@ -21,7 +21,8 @@ h1 {
 h2 {
     font-size: 2.5em;
     font-weight: 500;
-    text-align: center;
+    text-align: left;
+    margin-left: .65em;
     color: #BA3770;
 }
 
