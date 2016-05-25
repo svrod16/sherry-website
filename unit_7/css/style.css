@@ -60,10 +60,11 @@ section {
 }
 footer {
     background-color: #475F77;
-    border: 1px black solid;
     padding: 20px;
     color: #E0EEEE;
-
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    margin: 0px auto;
 }
 header {
     background-color: #FFED74;
