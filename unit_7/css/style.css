@@ -40,7 +40,7 @@ ul {
     background-size:cover;
     background-repeat:no-repeat;
     height:70vh;
-    padding:5em;
+    padding:7em 1em;
     background-position: 0px -145px;
 }
 nav {
@@ -98,7 +98,6 @@ aside {
 }
 #experience {
     background-color: #DCDDD8;
-    margin-left: 2em;
     margin-top: 3.5em;
 }
 #experience > ul {
