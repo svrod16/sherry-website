@@ -86,15 +86,18 @@ aside {
     margin:1em auto;
 }
 #about {
-    width: 30em;
+    width: 40em;
     margin: auto;
     }
 #education {
-    width: 30em;
+    width: 45em;
     margin: auto;
     }
 #experience {
     background-color: #D6D4C9;
+}
+p.p2{
+    padding: 2em 1em 1em 1em;
 }
 #experience div {
     width:60em;
