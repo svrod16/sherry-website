@@ -1,0 +1,130 @@
+* {margin:0; padding:0; box-sizing:border-box;}
+body {
+    background-color: #DCDDD8;
+    font-size: 20px;
+    font-family:'Lato', sans-serif;
+    font-weight: 100;
+    color: #475F77;
+}
+h1,h2,h3 {
+    font-family: 'Amatic SC', cursive;
+    margin-bottom:.5em;
+}
+h1 {
+    color: #BA3770;
+    font-size: 10em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+    text-align: left;
+    color: #BA3770;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 7px;
+}
+ul {
+}
+#splash {
+    background:url(../images/pinkflowers.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:70vh;
+    padding: 6em 1em 0em 3em;
+    background-position: 0px -145px;
+}
+nav {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    background-color: #475F77;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    margin: 0px auto;
+    text-align: right;
+}
+nav span:first-child{
+    position: absolute;
+    left: 15px;
+}
+section {
+    padding: 6em 0;
+}
+footer {
+    background-color: #475F77;
+    padding: 15px;
+    color: #E0EEEE;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    margin: 0px auto;
+}
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+    width: 100%;
+    margin: 0px auto;
+    text-align: left;
+}
+aside {
+    background-color: #FFC675;
+}
+.cta {
+    background: #BA3770;
+    display: block;
+    color:#fff;
+    padding: 1em 1em;
+    text-decoration:none;
+    text-align: center;
+    width:32.33%;
+    margin:1em auto;
+}
+#about {
+    width: 30em;
+    margin: auto;
+    }
+#experience {
+    background-color: #D6D4C9;
+}
+#experience div {
+    width:60em;
+    margin:auto;
+}
+#experience ul {
+    list-style: none;
+}
+#experience ul > li {
+    float: left;
+    color:#fff;
+    background: #475F77;
+    padding: 1em 0;
+    text-decoration:none;
+    text-align: center;
+    text-transform: capitalze;
+    width: 32.33%;
+    margin: .5%;
+}
+a{
+    color: #E0EEEE;
+    text-decoration: none;
+}
+nav a{
+    margin-right: .75em;
+}
+p{
+    margin-bottom: 1em;
+}
+.clearfix:after {
+    visibility:hidden;
+    content:".";
+    height:0;
+    font-size:0;
+    display:block;
+    clear:both;
+}
