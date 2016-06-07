@@ -135,3 +135,30 @@ p{
     display:block;
     clear:both;
 }
+@media only screen and (max-width: 800px) {
+  
+  nav {
+    float: none;
+  }
+  nav a {
+      margin: 0 1.6em .75em 0;
+  }
+  img {
+    width: 320px;
+  }
+
+#about {
+  font-size: 1em;
+  line-height: 1.4em; 
+  width: 100%;
+}
+#experience {
+  font-size: 1em;
+  line-height: 1.4em; 
+  width: 100%;
+}
+#eduation {
+  font-size: 1em;
+  line-height: 1.4em; 
+  width: 100%;
+}
