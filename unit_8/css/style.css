@@ -90,7 +90,7 @@ aside {
     margin: auto;
     }
 #education {
-    width: 45em;
+    width: 100%;
     margin: auto;
     }
 #experience {
@@ -100,7 +100,7 @@ p.p2{
     padding: 2em 1em 1em 1em;
 }
 #experience div {
-    width:60em;
+    width:100%;
     margin:auto;
 }
 #experience ul {
@@ -113,7 +113,7 @@ p.p2{
     padding: 1em 0;
     text-decoration:none;
     text-align: center;
-    text-transform: capitalze;
+    text-transform: capitalize;
     width: 32.33%;
     margin: .5%;
 }
@@ -135,8 +135,7 @@ p{
     display:block;
     clear:both;
 }
-@media only screen and (max-width: 800px) {
-  
+@media only screen and (max-width: 1200px) {
   nav {
     float: none;
   }
@@ -145,8 +144,35 @@ p{
   }
   img {
     width: 320px;
+}
+h1 {
+    font-size: 7em;
   }
-
+#splash {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 800px) {
+nav {
+    float: none;
+    width: 100%;
+  }
+nav a {
+    margin-right: .5em; 
+    font-size: .75em;
+}
+nav span:first-child{
+    font-size: .75em;
+}
+img {
+    width: 320px;
+}
+h1 {
+    font-size: 7em;
+}
+#splash {
+    width: 100%;
+}
 #about {
   font-size: 1em;
   line-height: 1.4em; 
@@ -157,8 +183,9 @@ p{
   line-height: 1.4em; 
   width: 100%;
 }
-#eduation {
+#education {
   font-size: 1em;
   line-height: 1.4em; 
   width: 100%;
 }
+
