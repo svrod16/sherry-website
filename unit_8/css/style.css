@@ -170,13 +170,18 @@ img {
 h1 {
     font-size: 7em;
 }
+#splash h1 {
+    padding: .5em 0em 0em 0em;
+}
 #splash {
     width: 100%;
+    background-position: 0px -50px;
 }
 #about {
   font-size: 1em;
   line-height: 1.4em; 
   width: 100%;
+  padding: 0em; 
 }
 #experience {
   font-size: 1em;
