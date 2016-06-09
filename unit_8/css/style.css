@@ -200,3 +200,55 @@ h1 {
     background-position: 0px 15px;
 }
 }
+@media only screen and (max-width: 400px) {
+    nav {
+    float: none;
+    width: 100%;
+    padding-bottom: 1em;
+  }
+nav a {
+    margin-right: -1em; 
+    font-size: .75em;
+    display: none;
+}
+nav span:first-child{
+    font-size: .65em;
+    text-align: center;
+}
+#splash h1 {
+    display: none;
+}
+#splash {
+    width: 100%;
+    background-position: -3.5em 2em;
+    height: 15em;
+}
+h2 {
+    font-size: 2em;
+}
+#about {
+  font-size: 1em;
+  line-height: 1.4em; 
+  width: 100%;
+  padding: 1em 2em; 
+}
+#experience {
+  font-size: 1em;
+  line-height: 1.4em; 
+  width: 100%;
+}
+#education {
+  font-size: 1em;
+  line-height: 1.4em; 
+  width: 90%;
+  padding: none;
+}
+#experience ul > li {
+    float: none;
+    padding: 1em 0;
+    text-decoration:none;
+    text-align: center;
+    text-transform: capitalize;
+    width: 32.33%;
+    margin: .5%;
+}
