@@ -201,16 +201,18 @@ h1 {
 }
 }
 @media only screen and (max-width: 400px) {
-    nav {
+nav {
     float: none;
     width: 100%;
-    padding-bottom: 1em;
+    padding-bottom: .1em;
   }
 nav a {
     margin-right: -1em; 
     font-size: .75em;
-    display: none;
 }
+#navabout, #navexperience, #naveducation, #navresume {
+    display: none;
+} 
 nav span:first-child{
     font-size: .65em;
     text-align: center;
@@ -249,6 +251,6 @@ h2 {
     text-decoration:none;
     text-align: center;
     text-transform: capitalize;
-    width: 32.33%;
+    width: 80%;
     margin: .5%;
 }
