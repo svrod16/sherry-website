@@ -181,7 +181,7 @@ h1 {
   font-size: 1em;
   line-height: 1.4em; 
   width: 100%;
-  padding: 0em; 
+  padding: 2em 4em; 
 }
 #experience {
   font-size: 1em;
@@ -193,4 +193,10 @@ h1 {
   line-height: 1.4em; 
   width: 100%;
 }
-
+}
+@media only screen and (max-width: 1030px) {
+    #splash {
+    width: 100%;
+    background-position: 0px 15px;
+}
+}
