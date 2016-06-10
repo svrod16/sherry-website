@@ -170,6 +170,15 @@ h1 {
     #splash h1 {
     display: none;
 }
+#experience ul > li {
+    float: none;
+    padding: 1em 0;
+    width: 85%;
+    margin: 2%;
+}
+.cta {
+    width:85%;
+    margin:1em auto;
 }
 @media only screen and (max-width: 800px) {
 nav {
