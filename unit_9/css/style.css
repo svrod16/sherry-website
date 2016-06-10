@@ -152,6 +152,25 @@ h1 {
     width: 100%;
 }
 }
+@media only screen and (max-width: 1030px) {
+    #splash {
+    width: 100%;
+    background-position: 0px 15px;
+}
+}
+@media only screen and (max-width: 960px) {
+#navabout, #navexperience, #naveducation, #navresume {
+    display: none;
+} 
+#navlinked {
+    padding: 1.5em;
+}
+}
+@media only screen and (max-width: 870px) {
+    #splash h1 {
+    display: none;
+}
+}
 @media only screen and (max-width: 800px) {
 nav {
     float: none;
@@ -194,11 +213,58 @@ h1 {
   width: 100%;
 }
 }
-@media only screen and (max-width: 1030px) {
-    #splash {
+@media only screen and (max-width: 700px) {
+nav {
+    float: none;
     width: 100%;
-    background-position: 0px 15px;
+    padding-bottom: .1em;
+  }
+nav a {
+    font-size: .75em;   
 }
+nav span:first-child{
+    font-size: .65em;
+}
+#splash h1 {
+    display: none;
+}
+#splash {
+    width: 100%;
+    height: 15em;
+}
+h2 {
+    font-size: 2em;
+}
+#about {
+  font-size: 1em;
+  line-height: 1.4em; 
+  width: 100%;
+  padding: 1em 2em; 
+}
+#experience {
+  font-size: 1em;
+  line-height: 1.4em; 
+  width: 100%;
+}
+#education {
+  font-size: 1em;
+  line-height: 1.4em; 
+  width: 90%;
+  padding: none;
+}
+#experience ul > li {
+    float: none;
+    padding: 2em 0;
+    width: 90%;
+    margin: 3%;
+}
+.cta {
+    width:80%;
+    margin:1em auto;
+}
+footer {
+    width: 100%;
+    padding-bottom: .1em;
 }
 @media only screen and (max-width: 400px) {
 nav {
@@ -252,7 +318,7 @@ h2 {
     float: none;
     padding: 1em 0;
     width: 80%;
-    margin: 13%;
+    margin: 5%;
 }
 .cta {
     width:80%;
@@ -262,57 +328,4 @@ footer {
     width: 100%;
     padding-bottom: .1em;
 }
-}
-@media only screen and (max-width: 700px) {
-nav {
-    float: none;
-    width: 100%;
-    padding-bottom: .1em;
-  }
-nav a {
-    font-size: .75em;   
-}
-nav span:first-child{
-    font-size: .65em;
-}
-#splash h1 {
-    display: none;
-}
-#splash {
-    width: 100%;
-    height: 15em;
-}
-h2 {
-    font-size: 2em;
-}
-#about {
-  font-size: 1em;
-  line-height: 1.4em; 
-  width: 100%;
-  padding: 1em 2em; 
-}
-#experience {
-  font-size: 1em;
-  line-height: 1.4em; 
-  width: 100%;
-}
-#education {
-  font-size: 1em;
-  line-height: 1.4em; 
-  width: 90%;
-  padding: none;
-}
-#experience ul > li {
-    float: none;
-    padding: 2em 0;
-    width: 60%;
-    margin: 15%;
-}
-.cta {
-    width:80%;
-    margin:1em auto;
-}
-footer {
-    width: 100%;
-    padding-bottom: .1em;
 }
