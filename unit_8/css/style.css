@@ -213,16 +213,19 @@ nav a {
 #navabout, #navexperience, #naveducation, #navresume {
     display: none;
 } 
+#navlinked {
+    padding: 1.5em;
+
+}
 nav span:first-child{
     font-size: .65em;
-    text-align: center;
 }
 #splash h1 {
     display: none;
 }
 #splash {
     width: 100%;
-    background-position: -3.5em 2em;
+    background-position: -1.4em 2em;
     height: 15em;
 }
 h2 {
@@ -248,9 +251,14 @@ h2 {
 #experience ul > li {
     float: none;
     padding: 1em 0;
-    text-decoration:none;
-    text-align: center;
-    text-transform: capitalize;
     width: 80%;
-    margin: .5%;
+    margin: 13%;
+}
+.cta {
+    width:80%;
+    margin:1em auto;
+}
+footer {
+    width: 100%;
+    padding-bottom: .1em;
 }
